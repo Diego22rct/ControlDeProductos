@@ -17,7 +17,7 @@ public:
       this->cantidadDeProductos = cantidadDeProductos;
     }
     int getcantidadDeProductos(){
-      return cantidadDeProductos
+      return cantidadDeProductos;
     }
     void agregarProducto(CProducto*_productos)
     {
@@ -51,7 +51,7 @@ public:
         cout << "Lista de productos" << endl;
         for (int i = 0; i < cantidadDeProductos; i++)
         {
-            cout << "La cantidad de Productos" << productos->getcantidadDeProductos() << endl;
+            cout << "La cantidad de Productos" << cantidadDeProductos << endl;
             cout << "Nombre del producto: " << listaProductos[i]->getNombreDelProducto() << endl;
             cout << "Codigo del producto: " << listaProductos[i]->getCodigoDelProducto() << endl;
             cout << "Precio del producto: " << listaProductos[i]->getPrecio() << endl;
