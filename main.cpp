@@ -7,9 +7,6 @@ using namespace System;
 #include "Producto.h"
 #include "Almacen.h"
 
-void cargaDeInventario(){
-}
-
 void main(){
     Console::Clear();
     Console::Title = "Control de productos";
